@@ -1,15 +1,23 @@
+import './polyfill';
 import React from 'react'
 import { render } from 'react-dom'
 import Math from '../contanier/Math'
-
-class Hello extends React.Component {
+import ProxyL from '../contanier/proxyL.js'
+import Generator from '../contanier/generator.js'
+import Rxjs from '../contanier/rxjs.js'
+class App extends React.Component {
     render() {
        return (
-           <Math />
+          <div>
+            {/* <Math />
+            <ProxyL/>
+            <Generator /> */}
+            <Rxjs/>
+          </div>
         )
     }
 }
 render(
-    <Hello/>,
+    <App/>,
     document.getElementById('root')
 )   

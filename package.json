@@ -20,15 +20,24 @@
   "homepage": "https://github.com/dxp-dan/webpack_react_cli#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
+    "antd": "^3.15.1",
     "babel-loader": "^7.1.5",
+    "babel-plugin-import": "^1.11.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "rxjs": "^6.4.0"
   }
 }
